@@ -3,6 +3,7 @@ import { X } from "lucide-react";
 import { cn } from "./lib/utils";
 import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
     {name: "Home", href: "#home"},
@@ -58,6 +59,7 @@ export const NavBar =() => {
                 {item.name}
               </a>
             ))}
+            
           </div>
 
           {/* mobile navbar */}
@@ -90,6 +92,7 @@ export const NavBar =() => {
                   {item.name}
                 </a>
               ))}
+
             </div>
           </div>
         </div>

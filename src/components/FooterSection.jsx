@@ -52,7 +52,7 @@ export const FooterSection = () => {
       <button
         onClick={scrollToTop}
         aria-label="Back to Top"
-        className="absolute right-4 bottom-4 md:bottom-6 md:right-6 bg-primary text-background p-2 rounded-full shadow-lg hover:scale-110 transition-all"
+        className="absolute right-4 bottom-4 md:bottom-28 md:right-6 bg-primary text-background p-2 rounded-full shadow-lg hover:scale-110 transition-all"
       >
         <ArrowUp size={20} />
       </button>
