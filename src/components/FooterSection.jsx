@@ -6,8 +6,8 @@ export const FooterSection = () => {
   };
 
   return (
-    <footer className="relative w-full bg-background border-t border-white/10 text-foreground py-8 px-4">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+    <footer className="relative  w-full bg-background/80 backdrop-blur-sm border-t border-white/10 text-foreground py-8 px-4">
+      <div className="max-w-6xl  mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
         {/* Left - Name */}
         <div className="text-muted-foreground md:text-xl lg:text-xl text-center md:text-left">
           Designed and Developed by{" "}
